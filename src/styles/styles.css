@@ -1,0 +1,29 @@
+h1 {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.scissorsbutton {
+    background-color:rgb(229, 113, 113);
+}
+.paperbutton {
+    background-color: rgb(127, 180, 230);
+}
+.rockbutton {
+    background-color: rgb(127, 210, 127);
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+}
