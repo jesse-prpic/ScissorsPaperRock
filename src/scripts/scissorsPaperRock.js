@@ -4,6 +4,12 @@ const scissorsButton = document.getElementById("scissors");
 const paperButton = document.getElementById("paper");
 const rockButton = document.getElementById("rock");
 const resultDiv = document.getElementById("result");
+const scoreDiv = document.getElementById("score");
+
+// Iniitalise the scores to be zero.
+let userScore = 0;
+let computerScore = 0;
+
 
 // get the computer choice
 function getComputerChoice(choice) {
@@ -28,11 +34,18 @@ function determineWinner(userChoice, computerChoice){
         (userChoice === "Paper" && computerChoice === "Rock") ||
         (userChoice === "Rock" && computerChoice === "Scissors")
     ) {
+        userScore++;
+        scoreDiv.textContent = `Your Score: ${userScore} | Computer Score: ${computerScore}`
         return "You win!";
     } else {
+        computerScore++;
+        scoreDiv.textContent = `Your Score: ${userScore} | Computer Score: ${computerScore}`
         return "Computer wins!";
     }
 }
+
+
+
 
 // listen to the button click events
 scissorsButton.addEventListener('click', () => {

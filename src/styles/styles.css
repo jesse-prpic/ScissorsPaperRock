@@ -11,6 +11,9 @@ button {
     margin: 10px;
     border-radius: 10px;
 }
+button:hover {
+    background-color: white;
+}
 
 .scissorsbutton {
     background-color:rgb(229, 113, 113);
