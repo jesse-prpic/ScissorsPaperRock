@@ -9,14 +9,23 @@
 <body>
     <h1> Scissors, Paper, Rock</h1>
 
-    <p id="score">Your Score: 0 | Computer Score: 0 </p>
+    <div id="game-mode">
+        <label for="mode">Select Game Mode:</label>
+        <select id="mode">
+            <option>Endless Mode</option>
+            <option>Best-of-X</option>
+        </select>
+        <input type="number" id="rounds" placeholder="Enter rounds" style="display:none;" min="1"> 
+        <button id="startGame">Start Game</button>
 
+    </div>
+    <p id="score">Your Score: 0 | Computer Score: 0 </p>
     <button id="scissors" class="scissorsbutton">Scissors</button>
     <button id="paper" class="paperbutton">Paper</button>
     <button id="rock" class="rockbutton">Rock</button>
 
     <p id="result">Start by pressing an option</p>
 
-    <script src="./scripts/scissorsPaperRock.js"></script>
+    <script src="./scripts/scissorsPaperRockv2.js"></script>
 </body>
 </html>

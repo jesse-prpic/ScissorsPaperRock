@@ -25,6 +25,13 @@ button:hover {
     background-color: rgb(127, 210, 127);
 }
 
+#startGame {
+    background-color: rgb(214, 123, 214);
+}
+#startGame:hover{
+    background-color: white;
+}
+
 #result {
     font-size: 20px;
     margin-top: 20px;

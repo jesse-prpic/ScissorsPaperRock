@@ -5,23 +5,16 @@ Logic:
 - Compare the user's choice to the computer's choice.
 - Determine the winner
 
-// Jesse Logic before starting project
+- Add a feature: Keep Score.
 
-create and define the variables
-- rock
-- paper
-- scissors
-
-define the rules
-- rock vs scissors, rock wins
-- scissors vs paper, scissors wins
-- paper vs rock, paper wins
-
-who is playing
-- you
-- computer
-
-The logic
-- by random we play
-- if not tie, someone wins.
-
+- Add more features:
+    - Game modes:
+        - Best-of-X
+            - User Input: Prompt the user to enter the desired number of rounds.
+            - Game Loop: Iterate the specified number of rounds.
+            - Scorekeeping: Track the wins for each player.
+            - Final Result: Declare the overall winner based on the final scores.
+        - Endless Mode
+            - Same concept as the existing one.
+            - Game goes on unit the user chooses not to play.
+            - Score is recorded through the game.
