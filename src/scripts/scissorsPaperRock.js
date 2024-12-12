@@ -44,9 +44,6 @@ function determineWinner(userChoice, computerChoice){
     }
 }
 
-
-
-
 // listen to the button click events
 scissorsButton.addEventListener('click', () => {
     const computerChoice = getComputerChoice();
